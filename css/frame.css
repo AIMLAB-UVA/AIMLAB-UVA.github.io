@@ -85,7 +85,7 @@ hr {
   z-index: 2;
   position: relative;
   width: 100%;
-  background-color: #333333;
+  background-color: #1B7677;
   min-width: 300px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -240,6 +240,8 @@ hr {
   box-sizing: border-box;
 }
 
+
+
 .flex-row-space-between {
   display: flex;
   flex-direction: row;
@@ -330,6 +332,39 @@ hr {
   margin: 0;
   padding: 0;
 }
+
+ .directors {
+      display: table;
+      float: left;
+      width: 50%;   
+      text-align: center;
+      line-height: 27px;
+      color: blue;
+}
+
+.directors img {
+    margin: auto;  
+    width: 270px;
+    height: 270px;
+}
+
+
+ .sponsors {
+      display: table;
+      float: left;
+      width:50%;   
+      text-align: center;
+      line-height: 27px;
+      color: blue;
+}
+
+.sponsors img {
+    margin: auto;  
+    width: 270px;
+    height: 270px;
+}
+
+
 
 .image {
   border-radius: 2px;
